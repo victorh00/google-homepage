@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer {
+    font-size: 16px;
+}
+
+
+#upper-menu {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+#upper-menu * {
+    margin: 8px;
+}
+#apps-logo {
+    width: 22px;
+    height: 22px;
+}
+#profile-pic {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4285F4;
+}
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+header a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.67);
+}
