@@ -5,7 +5,7 @@ header, footer {
     font-size: 16px;
 }
 
-
+/*UPPER NAVIGATION MENU*/
 #upper-menu {
     float: right;
     display: flex;
@@ -34,4 +34,54 @@ header a {
 header a:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.67);
+}
+
+/*LOGO IMAGE*/
+main {
+    display: block;
+    padding-top: 220px;
+    text-align: center;
+}
+#main-logo {
+    width: 350px;
+}
+
+/*SEARCH BAR*/
+.search-bar {
+    height: 65px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-border {
+    display: flex;
+    width: 720px;
+    height: 50px;
+    border: 1px solid rgb(223, 225, 229);
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.search-border:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.search-border img {
+    width: 20px;
+}
+#mag-glass {
+    margin: 0 20px 0 0;
+}
+#keyboard {
+    margin: 0 10px;
+}
+#mic {
+    margin: 0 10px;
+}
+#input-bar {
+    width: 550px;
+    border: none;
+    background-color: white;
 }
